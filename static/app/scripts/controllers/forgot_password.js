@@ -74,7 +74,7 @@ angular.module('weberApp')
                                         'password':$scope.hashed_password,
                                         'password_updated':new Date()
                                     }
-                                }).then(function(response){
+                                },{},{'If-Match':$scope.user._etag}).then(function(response){
                                     // this callback will be called asynchronously
                                     // when the response is available
 
