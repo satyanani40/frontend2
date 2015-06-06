@@ -243,7 +243,8 @@ people = {
                 'type': 'objectid',
                 'data_relation': {
                     'resource': 'people',
-                    'embeddable': True
+                    'embeddable': True,
+                    'field': '_id'
                 }
             },
         },
