@@ -239,6 +239,7 @@ people = {
 
         'conversations': {
             'type': 'list',
+            'allow_unknown': False,
             'schema': {
                 'type': 'objectid',
                 'data_relation': {
