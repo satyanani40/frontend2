@@ -1,6 +1,6 @@
 git add -A
 git commit -m 'testing'
-git pull origin  master
+git pull origin2  master
 
 
 echo '---------compressing-------------'
