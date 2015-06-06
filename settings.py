@@ -416,24 +416,17 @@ people = {
             'type': 'list',
             'schema': {
                 'type':'dict',
-
                 'schema':{
-                    'questionid': {
 
-                       'type': 'dict',
-                       'schema': {
-                         '_id': {'type': 'objectid'},
-                         '_version': {'type': 'integer'}
-                       },
-                       'data_relation': {
-                           'resource': 'questions',
-                           'field': '_id',
-                           'embeddable': True,
-                           'version': True,
-                       },
+                    'questionid': {
+                        'type': 'objectid',
+                        'data_relation': {
+                            'resource': 'questions',
+                             'embeddable': True
+                        }
                     },
 
-                    'answer':{
+                   'answer':{
                         'type':'integer',
                         #one for yes zero for no
                         'default': 3
