@@ -81,10 +81,7 @@ curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: a
 curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{
     "username": "AshokRaj",
      "conversations": [
-        "555d7d0f60efab05a97a99d1",
-        "555d827060efab05a97a9a17",
-        "555ddbf160efab0959a5e8d9",
-        "555de17b60efab0959a5e8eb"
+        "555d7d0f60efab05a97a99d1"
     ],
     "born": "dsfsdfsdf",
     "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392",
@@ -99,10 +96,10 @@ curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: a
 
 
 
-curl -H "If-Match: eff7ba204aad7a07a14cc79d0352e2678197e944" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","conversations":["555d7d0f60efab05a97a99d1","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9","555de17b60efab0959a5e8eb"],"born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","phone":"1234567890","email_confirmed":true,"lastmessageseen":1433581998}' http://104.155.71.51/api/people/555d785260efab05a97a99be
+curl -H "If-Match: eff7ba204aad7a07a14cc79d0352e2678197e944" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","conversations":["555d7d0f60efab05a97a99d1"],"born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","phone":"1234567890","email_confirmed":true,"lastmessageseen":1433581998}' http://104.155.71.51/api/people/555d785260efab05a97a99be
 
 
-
+curl -H "If-Match: b419488901825fc75d88ec4c42a18c0fd0ec08d0" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj12345","conversations":["5572ca365f4de40fba27d2ef"],"born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","phone":"1234567890","email_confirmed":true,"lastmessageseen":1433581998}' http://127.0.0.1:8000/api/people/5572dd415f4de415506e7bc9
 
 
 

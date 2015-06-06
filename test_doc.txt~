@@ -80,55 +80,56 @@ curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: a
 
 curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{
     "username": "AshokRaj",
+     "conversations": [
+        "555d7d0f60efab05a97a99d1",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9",
+        "555de17b60efab0959a5e8eb"
+    ],
     "born": "dsfsdfsdf",
     "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392",
     "role": "normal",
     "email": "so1ashok@yahoo.com",
-    "interests": [
-        "555d789460efab05a97a99c1",
-        "555d789460efab05a97a99bf"
-    ],
-    "picture": {
-        "large": "static/app/profile_pic_images/555d785260efab05a97a99be_original.png",
-        "medium": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png",
-        "thumbnail": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"
-    },
-    "send_add_requests": [
-        "555d76d660efab05a97a99ba",
-        "555d782260efab05a97a99bd"
-    ],
-    "conversations": [
-        "555d7d0f60efab05a97a99d1"
-        
-    ],
     "phone": "1234567890",
     "email_confirmed": true,
-    "password": {
-        "password": "pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b",
-        "password_test": "ashok",
-        "password_updated": "2015-05-22T20:47:41.291Z"
-    },
-    "friends": [
-        "555d790760efab05a97a99c5",
-        "555d827060efab05a97a9a17",
-        "555ddbf160efab0959a5e8d9"
-    ],
-    "name": {
-        "last": "Raj",
-        "first": "Ashok"
-    },
-    "lastmessageseen": 1433581998}'
+    "lastmessageseen": 1433581998
+}'
  http://104.155.71.51/api/people/555d785260efab05a97a99be
 
 
 
 
-curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","interests":["555d789460efab05a97a99c1","555d789460efab05a97a99bf"],"picture":{"large":"static/app/profile_pic_images/555d785260efab05a97a99be_original.png","medium":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png","thumbnail":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"},"send_add_requests":["555d76d660efab05a97a99ba","555d782260efab05a97a99bd"],"conversations":["555d7d0f60efab05a97a99d1"],"phone":"1234567890","email_confirmed":true,"password":{"password":"pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b","password_test":"ashok","password_updated":"2015-05-22T20:47:41.291Z"},"friends":["555d790760efab05a97a99c5","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9"],"name":{"last":"Raj","first":"Ashok"},"lastmessageseen": 1433581998}' http://104.155.71.51/api/people/555d785260efab05a97a99be
+curl -H "If-Match: eff7ba204aad7a07a14cc79d0352e2678197e944" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","conversations":["555d7d0f60efab05a97a99d1","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9","555de17b60efab0959a5e8eb"],"born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","phone":"1234567890","email_confirmed":true,"lastmessageseen":1433581998}' http://104.155.71.51/api/people/555d785260efab05a97a99be
 
 
 
 
-curl -H "If-Match: 2bce9e2d362376f2fa6120f878355ba6d903a337" -H "Content-Type: application/json"  -X PUT -d '{"username": "ratan123", "questions": [], "born": "", "random_string": "1CRLALK93LPMRKIGD2Q1FZ33BL7I4S8RIVY7HGUO5EJKK8NNJJU1DY8NLQ1K", "role": "normal", "location": {"city": "", "state": "", "street": ""},"email": "satya123@gmail.com", "interests": [], "picture": {"large": "static/app/images/yp-logo-500X500.png", "medium": "static/app/images/yp-logo-300X300.png", "thumbnail": "static/app/images/yp-logo-300X300.png"}, "send_add_requests": [], "conversations": [], "phone": "", "email_confirmed": false, "password": {"password": "pbkdf2:sha1:1000$n44zPRIQ$59f69d3f2be0e20c52e2e70084518ae72ca3d903", "password_updated": "2015-06-06 17:15:05.030861"}, "friends": [],  "name": {"last": "sss", "first": "sss"}, "notifications": [], "study": {"school": "test", "graduate": "test"}, "lastmessageseen": 1234}' http://127.0.0.1:8000/api/people/5572dd415f4de415506e7bc9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+curl -H "If-Match: 51c29ebd85cfebed1aec19ee3569f02ff0e9316d" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","questions":[{"answer":1,"questionid":"555a457360efab33b5828bd8"},{"answer":1,"questionid":"555a466a60efab33b5828be8"}],"born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","phone":"1234567890","email_confirmed":true,"lastmessageseen":1433581998}' http://127.0.0.1:8000/api/people/5572dd415f4de415506e7bc9
+
+
+
 
 
 

@@ -192,7 +192,6 @@ messages = {
 people = {
     # 'title' tag used in item links.
     'item_title': 'people',
-    'allow_unknown': True,
     # by default the standard item entry point is defined as
     # '/people/<ObjectId>/'. We leave it untouched, and we also enable an
     # additional read-only entry point. This way consumers can also perform GET
@@ -395,7 +394,7 @@ people = {
                         'type': 'integer',
                     },
                     'daterequest':{
-                        'type':'datetime'
+                        'type':'string'
                     },
                     'notific_type':{
                         'type': 'integer'
