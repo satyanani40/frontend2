@@ -1,0 +1,347 @@
+curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{
+    "username": "AshokRaj",
+    "questions": [
+        {
+            "answer": 1,
+            "questionid": "555a457360efab33b5828bd8"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a466a60efab33b5828be8"
+        }
+    ],
+    "born": "",
+    "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392",
+    "role": "normal",
+    "location": {
+        "city": "TG",
+        "state": "Hyderabad",
+        "street": "ddd"
+    },
+    "email": "so1ashok@yahoo.com",
+    "interests": [
+        "555d789460efab05a97a99c1",
+        "555d789460efab05a97a99bf"
+    ],
+    "picture": {
+        "large": "static/app/profile_pic_images/555d785260efab05a97a99be_original.png",
+        "medium": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png",
+        "thumbnail": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"
+    },
+    "send_add_requests": [
+        "555d76d660efab05a97a99ba",
+        "555d782260efab05a97a99bd"
+    ],
+    "conversations": [
+        "555d7d0f60efab05a97a99d1",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9",
+        "555de17b60efab0959a5e8eb"
+    ],
+    "phone": "1234567890",
+    "email_confirmed": true,
+    "password": {
+        "password": "pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b",
+        "password_test": "ashok",
+        "password_updated": "2015-05-22T20:47:41.291Z"
+    },
+    "friends": [
+        "555d790760efab05a97a99c5",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9"
+    ],
+    "name": {
+        "last": "Raj",
+        "first": "Ashok"
+    },
+    "notifications": [
+        {
+            "seen": true,
+            "daterequest": "2015-05-21 06:21:29.757069",
+            "notific_type": 2,
+            "friendid": "555d790760efab05a97a99c5"
+        },
+        {
+            "seen": true,
+            "daterequest": "2015-05-21 07:02:10.687701",
+            "notific_type": 2,
+            "friendid": "555d827060efab05a97a9a17"
+        }
+    ],
+    "study": {
+        "school": "Sri Barathi",
+        "graduate": "vrsec"
+    },
+    "lastmessageseen": 1433581998
+}' http://104.155.71.51/api/people/555d785260efab05a97a99be
+
+
+
+
+curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{
+    "username": "AshokRaj",
+    "born": "dsfsdfsdf",
+    "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392",
+    "role": "normal",
+    "email": "so1ashok@yahoo.com",
+    "interests": [
+        "555d789460efab05a97a99c1",
+        "555d789460efab05a97a99bf"
+    ],
+    "picture": {
+        "large": "static/app/profile_pic_images/555d785260efab05a97a99be_original.png",
+        "medium": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png",
+        "thumbnail": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"
+    },
+    "send_add_requests": [
+        "555d76d660efab05a97a99ba",
+        "555d782260efab05a97a99bd"
+    ],
+    "conversations": [
+        "555d7d0f60efab05a97a99d1"
+        
+    ],
+    "phone": "1234567890",
+    "email_confirmed": true,
+    "password": {
+        "password": "pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b",
+        "password_test": "ashok",
+        "password_updated": "2015-05-22T20:47:41.291Z"
+    },
+    "friends": [
+        "555d790760efab05a97a99c5",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9"
+    ],
+    "name": {
+        "last": "Raj",
+        "first": "Ashok"
+    },
+    "lastmessageseen": 1433581998}'
+ http://104.155.71.51/api/people/555d785260efab05a97a99be
+
+
+
+
+curl -H "If-Match: 827d9cd3a40cbb968035535f7aef11c5945984ac" -H "Content-Type: application/json"  -X PUT -d '{"username":"AshokRaj","born":"dsfsdfsdf","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","email":"so1ashok@yahoo.com","interests":["555d789460efab05a97a99c1","555d789460efab05a97a99bf"],"picture":{"large":"static/app/profile_pic_images/555d785260efab05a97a99be_original.png","medium":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png","thumbnail":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"},"send_add_requests":["555d76d660efab05a97a99ba","555d782260efab05a97a99bd"],"conversations":["555d7d0f60efab05a97a99d1"],"phone":"1234567890","email_confirmed":true,"password":{"password":"pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b","password_test":"ashok","password_updated":"2015-05-22T20:47:41.291Z"},"friends":["555d790760efab05a97a99c5","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9"],"name":{"last":"Raj","first":"Ashok"},"lastmessageseen": 1433581998}' http://104.155.71.51/api/people/555d785260efab05a97a99be
+
+
+
+
+curl -H "If-Match: 2bce9e2d362376f2fa6120f878355ba6d903a337" -H "Content-Type: application/json"  -X PUT -d '{"username": "ratan123", "questions": [], "born": "", "random_string": "1CRLALK93LPMRKIGD2Q1FZ33BL7I4S8RIVY7HGUO5EJKK8NNJJU1DY8NLQ1K", "role": "normal", "location": {"city": "", "state": "", "street": ""},"email": "satya123@gmail.com", "interests": [], "picture": {"large": "static/app/images/yp-logo-500X500.png", "medium": "static/app/images/yp-logo-300X300.png", "thumbnail": "static/app/images/yp-logo-300X300.png"}, "send_add_requests": [], "conversations": [], "phone": "", "email_confirmed": false, "password": {"password": "pbkdf2:sha1:1000$n44zPRIQ$59f69d3f2be0e20c52e2e70084518ae72ca3d903", "password_updated": "2015-06-06 17:15:05.030861"}, "friends": [],  "name": {"last": "sss", "first": "sss"}, "notifications": [], "study": {"school": "test", "graduate": "test"}, "lastmessageseen": 1234}' http://127.0.0.1:8000/api/people/5572dd415f4de415506e7bc9
+
+
+
+{"username": "AshokRaj", "questions": [{"answer": 1, "questionid": "555a457360efab33b5828bd8"}, {"answer": 1, "questionid": "555a458a60efab33b5828bd9"}, {"answer": 0, "questionid": "555a45a060efab33b5828bda"}, {"answer": 1, "questionid": "555a45ae60efab33b5828bdb"}, {"answer": 1, "questionid": "555a45ba60efab33b5828bdc"}, {"answer": 1, "questionid": "555a45c360efab33b5828bdd"}, {"answer": 0, "questionid": "555a45cd60efab33b5828bde"}, {"answer": 1, "questionid": "555a45{"username":"AshokRaj","questions":[{"answer":1,"questionid":"555a457360efab33b5828bd8"},{"answer":1,"questionid":"555a466a60efab33b5828be8"}],"born":"","random_string":"S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392","role":"normal","location":{"city":"TG","state":"Hyderabad","street":"ddd"},"email":"so1ashok@yahoo.com","interests":["555d789460efab05a97a99c1","555d789460efab05a97a99bf"],"picture":{"large":"static/app/profile_pic_images/555d785260efab05a97a99be_original.png","medium":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png","thumbnail":"static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"},"send_add_requests":["555d76d660efab05a97a99ba","555d782260efab05a97a99bd"],"conversations":["555d7d0f60efab05a97a99d1","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9","555de17b60efab0959a5e8eb"],"phone":"1234567890","email_confirmed":true,"password":{"password":"pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b","password_test":"ashok","password_updated":"2015-05-22T20:47:41.291Z"},"friends":["555d790760efab05a97a99c5","555d827060efab05a97a9a17","555ddbf160efab0959a5e8d9"],"name":{"last":"Raj","first":"Ashok"},"notifications":[{"seen":true,"daterequest":"2015-05-21 06:21:29.757069","notific_type":2,"friendid":"555d790760efab05a97a99c5"},{"seen":true,"daterequest":"2015-05-21 07:02:10.687701","notific_type":2,"friendid":"555d827060efab05a97a9a17"}],"study":{"school":"Sri Barathi","graduate":"vrsec"},"lastmessageseen":1433581998}e660efab33b5828be0"}, {"answer": 1, "questionid": "555a460760efab33b5828be2"}, {"answer": 1, "questionid": "555a461060efab33b5828be3"}, {"answer": 0, "questionid": "555a462060efab33b5828be4"}, {"answer": 1, "questionid": "555a463260efab33b5828be5"}, {"answer": 0, "questionid": "555a464160efab33b5828be6"}, {"answer": 1, "questionid": "555a464a60efab33b5828be7"}, {"answer": 1, "questionid": "555a466a60efab33b5828be8"}], "born": "", "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392", "role": "normal", "location": {"city": "TG", "state": "Hyderabad", "street": ""}, "_links": {"self": {"href": "people/555d785260efab05a97a99be", "title": "people"}, "collection": {"href": "people", "title": "people"}, "parent": {"href": "/", "title": "home"}}, "email": "so1ashok@yahoo.com", "interests": ["555d789460efab05a97a99c1", "555d789460efab05a97a99bf", "555d789460efab05a97a99c4", "555d789460efab05a97a99c3", "555d789460efab05a97a99c2", "5561b44460efab77d09b3f7b", "555d789460efab05a97a99c0", "555d77b560efab05a97a99bc"], "picture": {"large": "static/app/profile_pic_images/555d785260efab05a97a99be_original.png", "medium": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png", "thumbnail": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"}, "send_add_requests": ["555d76d660efab05a97a99ba", "555d782260efab05a97a99bd", "555d779560efab05a97a99bb", "555d9f7b60efab0959a5e8be", "5560b95e60efab05a8f29f8b"], "conversations": ["555d7d0f60efab05a97a99d1", "555d827060efab05a97a9a17", "555ddbf160efab0959a5e8d9", "555de17b60efab0959a5e8eb", "555d88cd60efab05a97a9a32", "555da4b860efab0959a5e8bf", "555dddb260efab0959a5e8e1", "555ead0260efab2f95035022", "555f4c0360efab0f8c1d58c2", "555eaf6060efab2f95035025", "555eb34860efab2f95035027", "555e99a260efab2f95035014", "555e1d4d60efab2f95034fd2", "5560b95e60efab05a8f29f8b", "5562b46c60efab77d09b3f84", "5562b46c60efab77d09b3f84"], "phone": "", "email_confirmed": true, "password": {"password": "pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b", "password_test": "ashok", "password_updated": "2015-05-22T20:47:41.291Z"}, "friends": ["555d790760efab05a97a99c5", "555d827060efab05a97a9a17", "555ddbf160efab0959a5e8d9", "555de17b60efab0959a5e8eb", "555da4b860efab0959a5e8bf", "555e019d60efab0959a5e8fa", "555e207c60efab2f95034fd9", "555e177e60efab2f95034fce", "555f4bd960efab0f8c1d58c1", "555f684760efab0f8c1d58d5", "555eda5560efab2f9503504e", "55671c7f60efab6e07ac4ff6", "5564fb59aca33b2ab03c9775"], "_updated": "Sun, 31 May 2015 13:44:20 GMT", "_id": "555d785260efab05a97a99be", "name": {"last": "Raj", "first": "Ashok"}, "notifications": [{"seen": true, "daterequest": "2015-05-21 06:21:29.757069", "notific_type": 2, "friendid": "555d790760efab05a97a99c5"}, {"seen": true, "daterequest": "2015-05-21 07:02:10.687701", "notific_type": 2, "friendid": "555d827060efab05a97a9a17"}, {"seen": true, "postid": "555d885d60efab05a97a9a31", "daterequest": "2015-05-21 08:24:07.097726", "notific_type": 3, "friendid": "555d790760efab05a97a99c5"}, {"seen": true, "daterequest": "2015-05-21 15:56:15.495509", "notific_type": 2, "friendid": "555da4b860efab0959a5e8bf"}, {"seen": true, "postid": "555d885d60efab05a97a9a31", "daterequest": "2015-05-21 19:27:11.150777", "notific_type": 3, "friendid": "555ddbf160efab0959a5e8d9"}, {"seen": true, "postid": "555ec6bf60efab2f95035037", "daterequest": "2015-05-22 06:11:52.706690", "notific_type": 3, "friendid": "555d790760efab05a97a99c5"}, {"seen": true, "daterequest": "2015-05-31 06:48:01.300122", "notific_type": 1, "friendid": "556aae4a60efab6e07ac5012"}, {"seen": true, "daterequest": "2015-06-05 14:37:05.694917", "notific_type": 1, "friendid": "556f13d560efab1923bc3212"}, {"seen": true, "postid": "556f2c1060efab1923bc3214", "daterequest": "2015-06-06 07:43:40.587096", "notific_type": 3, "friendid": "555d790760efab05a97a99c5"}], "gender": "", "study": {"school": "Sri Barathi", "intermediate": "", "graduate": "vrsec"}, "_created": "Thu, 01 Jan 1970 00:00:00 GMT", "lastmessageseen": 1433581998, "_etag": "827d9cd3a40cbb968035535f7aef11c5945984ac"}
+
+
+
+
+{
+    "username": "AshokRaj",
+    "questions": [
+        {
+            "answer": 1,
+            "questionid": "555a457360efab33b5828bd8"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a458a60efab33b5828bd9"
+        },
+        {
+            "answer": 0,
+            "questionid": "555a45a060efab33b5828bda"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a45ae60efab33b5828bdb"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a45ba60efab33b5828bdc"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a45c360efab33b5828bdd"
+        },
+        {
+            "answer": 0,
+            "questionid": "555a45cd60efab33b5828bde"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a45e660efab33b5828be0"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a460760efab33b5828be2"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a461060efab33b5828be3"
+        },
+        {
+            "answer": 0,
+            "questionid": "555a462060efab33b5828be4"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a463260efab33b5828be5"
+        },
+        {
+            "answer": 0,
+            "questionid": "555a464160efab33b5828be6"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a464a60efab33b5828be7"
+        },
+        {
+            "answer": 1,
+            "questionid": "555a466a60efab33b5828be8"
+        }
+    ],
+    "born": "",
+    "random_string": "S81JEPR9BHYYZ1TF718L3UO7OKASF6XEC414EMUJGIC4C0RX3RVJYF6UA392",
+    "role": "normal",
+    "location": {
+        "city": "TG",
+        "state": "Hyderabad",
+        "street": ""
+    },
+    "email": "so1ashok@yahoo.com",
+    "interests": [
+        "555d789460efab05a97a99c1",
+        "555d789460efab05a97a99bf",
+        "555d789460efab05a97a99c4",
+        "555d789460efab05a97a99c3",
+        "555d789460efab05a97a99c2",
+        "5561b44460efab77d09b3f7b",
+        "555d789460efab05a97a99c0",
+        "555d77b560efab05a97a99bc"
+    ],
+    "picture": {
+        "large": "static/app/profile_pic_images/555d785260efab05a97a99be_original.png",
+        "medium": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png",
+        "thumbnail": "static/app/profile_pic_images/555d785260efab05a97a99be_cropped.png"
+    },
+    "send_add_requests": [
+        "555d76d660efab05a97a99ba",
+        "555d782260efab05a97a99bd",
+        "555d779560efab05a97a99bb",
+        "555d9f7b60efab0959a5e8be",
+        "5560b95e60efab05a8f29f8b"
+    ],
+    "conversations": [
+        "555d7d0f60efab05a97a99d1",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9",
+        "555de17b60efab0959a5e8eb",
+        "555d88cd60efab05a97a9a32",
+        "555da4b860efab0959a5e8bf",
+        "555dddb260efab0959a5e8e1",
+        "555ead0260efab2f95035022",
+        "555f4c0360efab0f8c1d58c2",
+        "555eaf6060efab2f95035025",
+        "555eb34860efab2f95035027",
+        "555e99a260efab2f95035014",
+        "555e1d4d60efab2f95034fd2",
+        "5560b95e60efab05a8f29f8b",
+        "5562b46c60efab77d09b3f84",
+        "5562b46c60efab77d09b3f84"
+    ],
+    "phone": "",
+    "email_confirmed": true,
+    "password": {
+        "password": "pbkdf2:sha1:1000$0NPP6WOE$17a9c693bc423bd6221e58d35d1e3753b3f0160b",
+        "password_test": "ashok",
+        "password_updated": "2015-05-22T20:47:41.291Z"
+    },
+    "friends": [
+        "555d790760efab05a97a99c5",
+        "555d827060efab05a97a9a17",
+        "555ddbf160efab0959a5e8d9",
+        "555de17b60efab0959a5e8eb",
+        "555da4b860efab0959a5e8bf",
+        "555e019d60efab0959a5e8fa",
+        "555e207c60efab2f95034fd9",
+        "555e177e60efab2f95034fce",
+        "555f4bd960efab0f8c1d58c1",
+        "555f684760efab0f8c1d58d5",
+        "555eda5560efab2f9503504e",
+        "55671c7f60efab6e07ac4ff6",
+        "5564fb59aca33b2ab03c9775"
+    ],
+    "name": {
+        "last": "Raj",
+        "first": "Ashok"
+    },
+    "notifications": [
+        {
+            "seen": true,
+            "daterequest": "2015-05-21 06:21:29.757069",
+            "notific_type": 2,
+            "friendid": "555d790760efab05a97a99c5"
+        },
+        {
+            "seen": true,
+            "daterequest": "2015-05-21 07:02:10.687701",
+            "notific_type": 2,
+            "friendid": "555d827060efab05a97a9a17"
+        },
+        {
+            "seen": true,
+            "postid": "555d885d60efab05a97a9a31",
+            "daterequest": "2015-05-21 08:24:07.097726",
+            "notific_type": 3,
+            "friendid": "555d790760efab05a97a99c5"
+        },
+        {
+            "seen": true,
+            "daterequest": "2015-05-21 15:56:15.495509",
+            "notific_type": 2,
+            "friendid": "555da4b860efab0959a5e8bf"
+        },
+        {
+            "seen": true,
+            "postid": "555d885d60efab05a97a9a31",
+            "daterequest": "2015-05-21 19:27:11.150777",
+            "notific_type": 3,
+            "friendid": "555ddbf160efab0959a5e8d9"
+        },
+        {
+            "seen": true,
+            "postid": "555ec6bf60efab2f95035037",
+            "daterequest": "2015-05-22 06:11:52.706690",
+            "notific_type": 3,
+            "friendid": "555d790760efab05a97a99c5"
+        },
+        {
+            "seen": true,
+            "daterequest": "2015-05-31 06:48:01.300122",
+            "notific_type": 1,
+            "friendid": "556aae4a60efab6e07ac5012"
+        },
+        {
+            "seen": true,
+            "daterequest": "2015-06-05 14:37:05.694917",
+            "notific_type": 1,
+            "friendid": "556f13d560efab1923bc3212"
+        },
+        {
+            "seen": true,
+            "postid": "556f2c1060efab1923bc3214",
+            "daterequest": "2015-06-06 07:43:40.587096",
+            "notific_type": 3,
+            "friendid": "555d790760efab05a97a99c5"
+        }
+    ],
+    "gender": "",
+    "study": {
+        "school": "Sri Barathi",
+        "intermediate": "",
+        "graduate": "vrsec"
+    },
+    "lastmessageseen": 1433581998,
+}
+

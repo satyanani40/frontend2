@@ -700,7 +700,7 @@ def signup():
             'phone': "",
             'send_add_requests':[],
             'study': {
-              'intermediate':"",
+              'school':"",
               'graduate': ""
             },
             'random_string': id_generator(),
@@ -709,7 +709,7 @@ def signup():
             'role': "normal",
             'questions':[],
             'gender' : "",
-            'lastmessageseen' : dt.strftime('%Y-%m-%dT%H:%M:%SZ'),
+            'lastmessageseen' : datetime.now(),
             'location' : {
                 'city' : "",
                 'state' : "",
