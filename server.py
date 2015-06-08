@@ -29,7 +29,7 @@ class TokenAuth(TokenAuth):
         return accounts.find_one({'token': token})
 
 app = Eve(__name__,static_url_path='/static')
-app.debug = True,
+app.debug = True
 
 app.config.update(
 	DEBUG=True,
