@@ -914,7 +914,7 @@ def fileupload():
 @socketio.on('connecting')
 def joiningtoroom(data):
     if(join_into_room(data['id'])):
-        emit('joiningstatus',{'data': data['id'] in request.namespace.rooms})
+        emit('joiningstatus',{'data': data['id'] in request.namespace.rooms, 'id': data['id']})
 
 @socketio.on('send_message')
 def send_to_room(data):

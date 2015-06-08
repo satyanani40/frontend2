@@ -24,7 +24,7 @@ angular.module('weberApp')
             $socket.emit('connecting', {id:$rootScope.currentUser._id});
 
             $socket.on('joiningstatus', function(data) {
-                console.log('connected with following data==>', data)
+                console.log('connected status with following data==>', data)
             });
 
             $socket.on('FMnotific', function(data){
