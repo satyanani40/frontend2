@@ -745,21 +745,7 @@ def signup():
         response.status_code = 401
         return response
 
-
-#@app.route('/clear-school-field', methods=['GET'])
-#def clean_school_filed():
-#    peoples = app.data.driver.db['people']
-#    data = peoples.find({"study.intermediate":{"$exists":True}})
-#    exits_field_members = []
-#    for temp in data:
-#        print temp['_id']
-#        exits_field_members.append(str(temp['_id']))
-#    for temp in exits_field_members:
-#        peoples.update({"_id": ObjectId(temp)}, {"$rename":{"study.intermediate":"study.school"}})
-#    return 'success'
-
-
-@app.route('/get_interested_ids', methods=['POST', 'GET'])
+@app.route('/get_interested_ids', methods=['POST'])
 def after_get_interests_ids():
     data = get_interest_ids(request.json['interests'])
     accounts = app.data.driver.db['people']
